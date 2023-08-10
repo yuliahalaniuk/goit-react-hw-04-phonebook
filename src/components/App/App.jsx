@@ -53,8 +53,6 @@ const App = () => {
     localStorage.setItem(LS_CONTACTS, JSON.stringify(contacts));
   }, [contacts]);
 
-  // const visibleContacts = getVisibleContacts();
-
   return (
     <div className={css.container}>
       <div className={css.wrapper}>
